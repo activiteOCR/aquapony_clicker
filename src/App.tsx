@@ -1,15 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 import Arrow from "./icons/Arrow";
-import {
-  bear,
-  coin,
-  highVoltage,
-  notcoin,
-  rocket,
-  trophy,
-  pony,
-} from "./images";
+import { bear, coin, highVoltage, rocket, trophy, pony } from "./images";
 
 const App = () => {
   const [points, setPoints] = useState(29857775);
